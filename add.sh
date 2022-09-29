@@ -1,7 +1,7 @@
-#! /bin/bash
-echo "40 2"
-echo "Result"  
+ #! /bin/bash
 a=40
 b=2
-add= expr $a + $b
 
+sum=$(( $a + $b ))
+echo $a  $b
+echo "Result : $sum"
